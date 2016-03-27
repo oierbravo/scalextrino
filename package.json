@@ -1,0 +1,32 @@
+{
+  "name": "scalextrino",
+  "version": "0.0.1",
+  "description": "Arduino controlled slotcars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oierbravo/scalextrino.git"
+  },
+  "keywords": [
+    "arduino",
+    "serialport",
+    "scalextric",
+    "slotcar"
+  ],
+  "author": "Oier Bravo Urtasun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oierbravo/scalextrino/issues"
+  },
+  "homepage": "https://github.com/oierbravo/scalextrino#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "forever": "^0.15.1",
+    "johnny-five": "^0.9.34"
+  }
+}

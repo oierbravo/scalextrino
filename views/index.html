@@ -1,0 +1,95 @@
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scalextrino</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/gauge.css">
+    <script src="bower_components/angular/angular.min.js"></script>
+  </head>
+  <body>
+   <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button>
+
+            <a class="navbar-brand" href="#/">Scalextrino</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Play</a></li>
+              <li><a ng-href="/test">Test</a></li>
+     
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="container">
+   <div class="row">
+    <div class="col-md-6">
+        <div id="gauge1" class="gauge gauge1">
+          <ul class="meter">
+            <li class="low"></li>
+            <li class="normal"></li>
+            <li class="high"></li>
+          </ul>
+
+          <div class="dial">
+              <div class="inner">
+                <div class="arrow">
+                </div>
+              </div>      
+          </div>
+
+          <div class="value">
+            0%
+          </div>
+
+        </div>
+        </div>
+ <div class="col-md-6">
+      <div id="gauge2" class="gauge">
+        <ul class="meter">
+          <li class="low"></li>
+          <li class="normal"></li>
+          <li class="high"></li>
+        </ul>
+
+        <div class="dial">
+            <div class="inner">
+              <div class="arrow">
+              </div>
+            </div>      
+        </div>
+
+        <div class="value">
+          0%
+        </div>
+
+      </div>
+      </div>
+    </div> <!-- /row -->
+    </div> <!-- /container -->
+      <footer>
+       
+      </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="scripts/scalextrino.client.keypress.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+  </body>
+</html>

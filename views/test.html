@@ -1,0 +1,61 @@
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scalextrino</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet">
+    <script src="bower_components/angular/angular.min.js"></script>
+  </head>
+  <body>
+   <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button>
+
+            <a class="navbar-brand" href="#/">Scalextrino</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Play</a></li>
+              <li><a ng-href="/test">Test</a></li>
+     
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="container">
+
+      <form class="form">
+        <h2 class="form">Set speed</h2>
+        <label for="inputSpeed1" class="sr-only">Speed 1</label>
+        <input type="text" id="inputSpeed1" class="form-control" placeholder="0">
+        <a href="#" role="button" class="btn btn-lg btn-primary" id="btnSpeed1">GO</a>
+        <label for="inputSpeed2" class="sr-only">Speed 2</label>
+        <input type="text" id="inputSpeed2" class="form-control" placeholder="0">
+        <a href="#" role="button" class="btn btn-lg btn-primary" id="btnSpeed2">GO</a>
+      </form>
+<div id="slider1"></div>
+    </div> <!-- /container -->
+      <footer>
+       
+      </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="scripts/scalextrino.client.test.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+  </body>
+</html>

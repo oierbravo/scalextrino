@@ -1,0 +1,27 @@
+{
+  "name": "scalextrino",
+  "description": "Arduino controlled slotcars.",
+  "main": "index.js",
+  "authors": [
+    "Oier Bravo Urtasun"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "arduino",
+    "serialport",
+    "scalextric",
+    "slotcar"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}
